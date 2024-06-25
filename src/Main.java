@@ -11,6 +11,16 @@ public class Main {
             System.out.println("Если возраст человека равен " + age + ", то он совершеннолетний.");
         }
 
+        for (int i = 0; i < 3; i++){
+            System.out.println("\n");
+        }
+        System.out.println("Задание 2");
+        int temp = 4;
+        if (temp <= 5){
+            System.out.println("На улице холодно, нужно надеть шапку");
+        } else {
+            System.out.println("Сегодня тепло, можно идти без шапки");
+        }
 
     }
 }
