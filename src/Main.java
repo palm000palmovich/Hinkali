@@ -22,5 +22,16 @@ public class Main {
             System.out.println("Сегодня тепло, можно идти без шапки");
         }
 
+        for (int i = 0; i < 3; i++){
+            System.out.println("\n");
+        }
+        System.out.println("Задание 3");
+        int speed = 60;
+        if (speed > 60){
+            System.out.println("Если скрость " + speed + " км/ч, придется заплатить штраф.");
+        } else
+            System.out.println("Если скрость " + speed + " км/ч, можно ездить спокойно.");
+
+
     }
 }
